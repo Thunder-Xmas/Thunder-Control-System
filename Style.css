@@ -1,0 +1,82 @@
+body{
+    background: #224;
+
+}
+
+.buttons{
+    text-align: center;
+}
+
+#title1{
+    color: White;
+    font-size: 12vw;
+    font-family: "DIN Alternate", sans-serif;
+    //font-family: "din-2014", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    text-align: center;
+    
+}
+
+.btn{
+    display: inline-block;
+    padding: 0.4vw;
+    border-radius: 1.2vw;
+    background-image: linear-gradient(to bottom right, rgba(230, 230, 100, 1) 5%, rgba(230, 230, 255, 1) 30%,  rgba(100, 140, 255, 1) 90%);
+    text-decoration: none;
+    color: black;
+}
+
+.btn_in{
+    //text-align: center;
+    color: #000D;
+    font-family: "DIN Alternate", sans-serif;
+    
+    display: block;
+    padding: 0.3vw 3vw;
+    border-radius: 1vw;
+    background: #fffa;
+    //background: #2245;
+    font-size: 2vw;
+
+    
+    transition: all 0.1s 0s linear;
+}
+
+.btn_in:hover{
+    background: #2244;
+    //background: #fff3;
+    color: #fff;
+}
+
+
+.btn2{
+    display: inline-block;
+    padding: 0.4vw;
+    border-radius: 1.2vw;
+    background-image: linear-gradient(to bottom right, rgba(230, 230, 100, 1) 5%, rgba(230, 230, 255, 1) 30%,  rgba(100, 140, 255, 1) 90%);
+    text-decoration: none;
+    color: #fff;
+}
+
+.btn_in2{
+    //text-align: center;
+    color: #fff;
+    font-family: "DIN Alternate", sans-serif;
+    
+    display: block;
+    padding: 0.3vw 3vw;
+    border-radius: 1vw;
+    background: #0004;
+    //background: #2245;
+    font-size: 2vw;
+
+    
+    transition: all 0.1s 0s linear;
+}
+
+.btn_in2:hover{
+    background: #fff6;
+    //background: #fff3;
+    color: #000;
+}
